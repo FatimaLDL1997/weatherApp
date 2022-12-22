@@ -160,10 +160,10 @@ const Wrapper = styled.div`
     border: none;
     // color: white;
     font-size: 1.5rem;
-    line-height: 0;
+    line-height: fit-content;
   }
   .btn:first-child {
-    padding-top: 2rem;
+    padding-top: 1rem;
   }
   .btn:last-child {
     padding-top: 1rem;
