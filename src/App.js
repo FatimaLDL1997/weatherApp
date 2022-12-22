@@ -130,7 +130,7 @@ function App() {
 const Wrapper = styled.div`
   .img {
     width: 100%;
-    position: absolute;
+    position: relative;
     height: 100%;
     z-index: 1;
   }
