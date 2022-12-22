@@ -133,6 +133,7 @@ const Wrapper = styled.div`
     position: relative;
     height: 100%;
     z-index: 1;
+    left: -1rem;
   }
   .devider {
     text-align: center;
