@@ -44,12 +44,14 @@ function App() {
           />
         </div>
         <div className='container'>
-          <div className='img'>
-            <img
-              src={`http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`}
-              alt=''
-            />
-          </div>
+          {data.main && (
+            <div className='img'>
+              <img
+                src={`http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`}
+                alt=''
+              />
+            </div>
+          )}
           <div className='top'>
             <div className='location'>
               <p>{data.name}</p>
