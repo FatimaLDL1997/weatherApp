@@ -132,12 +132,7 @@ const Wrapper = styled.div`
     width: 100%;
     position: absolute;
     height: 100%;
-    z-index: -1;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    z-index: 1;
   }
   .devider {
     text-align: center;
